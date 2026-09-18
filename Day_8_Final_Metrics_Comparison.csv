@@ -1,0 +1,4 @@
+Model,RMSE,MAE
+ARIMA,0.89,0.68
+Prophet,0.76,0.58
+LSTM,0.65,0.51
