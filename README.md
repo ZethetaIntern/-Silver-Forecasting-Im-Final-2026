@@ -1,23 +1,29 @@
+# 1D Silver Price Forecasting Agent - Commodity Forecasting
 
-# 1D-Silver-Price-Forecasting-Agent
-Silver commodity price forecasting using LSTM, ARIMA, Prophet - ZeTheta Internship 1D
+## Project Overview
+This project forecasts 1D Silver prices using multiple time-series models for Data Analyst work experience.
 
-## 📊 Final Results (Day 8)
-| Model | RMSE | MAE |
-|-------|------|-----|
-| ARIMA | 0.89 | 0.68 |
-| Prophet | 0.76 | 0.58 |
-| LSTM | 0.65 | 0.51 |
+## Dataset
+- File: silver_with_indicators.csv
+- Period: 2000-2025 daily prices
+- Features: OHLC, RSI, MACD, Moving Averages
 
-🏆 Best Model: LSTM with RMSE 0.65
+## Models Implemented
+1. ARIMA - Day_4_Silver_ARIMA_improved.ipynb
+2. Prophet - Day_6_Prophet.ipynb
+3. LSTM (Deep Learning) - Day_7_LSTM.ipynb - BEST MODEL
+4. XGBoost - XGBoost.ipynb
+5. Final Comparison - Day8_Final_Comparison.ipynb
 
-## Project Structure
-- Day 1: EDA
-- Day 4: ARIMA
-- Day 6: Prophet
-- Day 7: LSTM
-- Day 8: Final Comparison
+## Results
+- Best Model: LSTM with lowest RMSE and MAE
+- Metrics: RMSE, MAE, MAPE compared in Day_8_Final_Metrics_Comparison
+- Visuals: Prophet, LSTM, Ensemble forecasts included as PNG
 
-Technologies: Python, Pandas, Prophet, TensorFlow/Keras LSTM
+## Files
+- All notebooks are executable
+- Predictions CSVs show forecast results
+- Final Report: 1D-Silver_final_report.pdf
 
-Completed by iemunkaloo25-hub - Sept 2026
+## Conclusion
+LSTM outperformed traditional models for Silver price forecasting.
